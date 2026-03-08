@@ -1,46 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Lugar que queremos conhecer</title>
+    <meta charset="UTF-8" />
+    <title>Landing México</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-    <h1>Lugar que temos vontade de conhecer</h1>
-    <p>Él Mexico</p>
-</header>
+    
+    <div class="leaves"></div>
 
-<main>
-    <section id="aluno">
-        <h2>Sobre o aluno</h2>
-        <p>Nome: <strong>Nome do Aluno</strong></p>
-        <p>Turma: 2ºX</p>
+    
+    <section class="hero">
+        <div>
+            <h1>México</h1>
+            <p>Cores vibrantes, sabores intensos e uma cultura milenar.</p>
+
+            <div class="hero-buttons">
+                <a href="#destinos" class="btn btn-primary">Explorar destinos</a>
+                <a href="#cultura" class="btn btn-secondary">Cultura</a>
+            </div>
+        </div>
     </section>
 
-    <section id="lugar">
-        <h2>O lugar dos meus sonhos</h2>
-        <p><strong>Nome do lugar:</strong> México </p>
-        <p><strong>Por que queremos conhecer esse lugar?</strong></p>
-        <p>
-            O México é um país rico em cultura, história e belezas naturais. Queremos conhecer suas praias paradisíacas, como Cancún e Playa del Carmen, além de explorar as ruínas maias em Chichén Itzá e Tulum. A culinária mexicana também é algo que nos encanta, e adoraria experimentar pratos autênticos como tacos, guacamole e mucha pimenta. Além disso, a vibrante cultura mexicana, com suas festividades coloridas e música animada, é algo que nos atrai muito, principalmente a celebração de Dia de Los Muertos.
-        </p>
+   
+    <section id="destinos">
+        <span class="subtitle reveal-top">DESTINOS IMPERDÍVEIS</span>
+        <h2 class="reveal-top">Onde a Magia Acontece</h2>
+
+        <div class="cards">
+            <div class="card">
+                <div class="image"><img src="img/cenote.jpg" /></div>
+                <div class="content">
+                    <h3>Cenotes de Yucatán</h3>
+                    <p>Piscinas naturais sagradas dos Maias.</p>
+                </div>
+                <span class="line"></span>
+            </div>
+
+            <div class="card">
+                <div class="image"><img src="img/chichen-itza.jpg" /></div>
+                <div class="content">
+                    <h3>Chichén Itzá</h3>
+                    <p>Uma das Sete Maravilhas do Mundo Moderno.</p>
+                </div>
+                <span class="line"></span>
+            </div>
+
+            <div class="card">
+                <div class="image"><img src="img/guanajuato.jpg" /></div>
+                <div class="content">
+                    <h3>Guanajuato</h3>
+                    <p>A cidade mais colorida do México.</p>
+                </div>
+                <span class="line"></span>
+            </div>
+        </div>
     </section>
 
-    <section id="curiosidades">
-        <h2>Curiosidades sobre esse lugar</h2>
-        <ul>
-            <li>Curiosidade 1</li>
-            <li>Curiosidade 2</li>
-            <li>Curiosidade 3</li>
-        </ul>
+    
+    <section class="cultura" id="cultura">
+        <span class="subtitle reveal-top">TRADIÇÕES VIVAS</span>
+        <h2 class="reveal-top" style="color:#ff3b7f">Cultura & Alma</h2>
+
+        <div class="cultura-grid">
+            <div class="cultura-image reveal-left">
+                <img src="img/sugar-skull.jpg">
+            </div>
+
+            <div>
+                <div class="cultura-item">💀 Día de los Muertos</div>
+                <div class="cultura-item">🌮 Gastronomia</div>
+                <div class="cultura-item">🎨 Arte & Muralismo</div>
+                <div class="cultura-item">🎵 Mariachi</div>
+            </div>
+        </div>
     </section>
-</main>
+    <section class="Gastronomia">
+        <span class="subtitle reveal-top">SABORES DO MÉXICO</span>
+        <h2 class="reveal-top" style="color:#ff3b7f">Gastronomia</h2>
 
-<footer>
-    <p>Trabalho de HTML/CSS - Lugares que queremos conhecer</p>
-</footer>
+        <div class="cultura-grid">
+            <div class="cultura-image reveal-left">
+                <img src="img/tacos.jpg">
+            </div>
 
+            <div>
+                <div class="cultura-item">Tacos al pastor</div>
+                <div class="cultura-item">Moles Poblano</div>
+                <div class="cultura-item">Cochinita Pibil</div>
+                <div class="cultura-item">Elote</div>
+                <div class="cultura-item">Churros</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Trabalho de DevOps - Lugares que queremos conhecer</p>
+    </footer>
+    <script src="js/script.js"></script>
+    
 </body>
+
 </html>
