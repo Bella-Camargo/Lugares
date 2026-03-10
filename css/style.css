@@ -233,6 +233,10 @@ h2 {
 }
 
 .povos-grid {
+    background: linear-gradient(135deg, rgba(255,59,127,0.25), rgba(245,197,107,0.25));
+    border-radius: 30px;
+    padding: 120px 8%;
+    margin: 80px 8%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px 80px;
