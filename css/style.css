@@ -232,6 +232,13 @@ h2 {
     transform: translate(0) scale(1);
 }
 
+.povos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 80px;
+    align-items: center;
+}
+
 @media (max-width: 900px) {
     .cards {
         grid-template-columns: 1fr;
